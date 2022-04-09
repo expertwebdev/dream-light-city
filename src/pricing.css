@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   /* overflow-y: scroll; */
-  background: var(--lite-magenta);
+  background: var(--light-color);
 }
 
 .card-container {
@@ -19,7 +19,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  overflow-y: scroll;
   padding: 1rem 2rem;
   padding-bottom: 5rem;
 }
@@ -31,7 +30,7 @@
   padding: 0.2rem;
   align-items: center;
   border-radius: 1rem;
-  background: linear-gradient(var(--lite-magenta2), var(--dark-magenta));
+  background: linear-gradient(var(--main-color), var(--dark-color));
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -39,9 +38,6 @@
   box-shadow: 1rem 1.2rem 2rem var(--color-primary);
 }
 
-/* .card:last-child{
-      margin-bottom: 2.8rem;
-  } */
 
 .card:hover {
   transform: scale(1.05);

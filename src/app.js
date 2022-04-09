@@ -3,7 +3,9 @@ const homeBtn = document.getElementById("home");
 const homeContainer = document.getElementById("homeContainer");
 const pricingContainer = document.getElementById("pricingContainer");
 const menuBar = document.getElementById("menuBar");
-const navBar = document.querySelector("nav")
+const refcodeAlert = document.querySelector("#refcode");
+const navBar = document.querySelector("nav");
+const refShow = document.querySelector(".refcode-show");
 
 
 
@@ -31,3 +33,15 @@ menuBar.addEventListener('click', () => {
     }
 
 })
+
+function getParameter(parameterName) {
+    let parameters = new URLSearchParams(window.location.search);
+    return parameters.get(parameterName);
+}
+
+let showRefcode = getParameter("refcode");
+
+if (getParameter("refcode")) {
+    refShow.style.display = "block";
+    refcodeAlert.innerHTML = `Your referral code : ${showRefcode}`;
+} 

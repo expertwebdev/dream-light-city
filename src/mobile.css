@@ -1,7 +1,14 @@
 @media screen and (max-width: 901px) {
   body {
     overflow-y: scroll;
-    background: var(--lite-magenta);
+    background: var(--light-color);
+  }
+
+  .refcode-show{
+    text-align: center;
+  }
+  #refcode{
+    animation: none;
   }
 
   header {
@@ -44,9 +51,9 @@
   nav ul {
     flex-direction: column;
     position: fixed;
-    right: .6rem;
+    right: .8rem;
     top: 3.5rem;
-    color: var(--dark-magenta);
+    color: var(--light-color);
     z-index: 20;
     text-align: right;
   }
@@ -54,7 +61,7 @@
   .navList {
     width: 5rem;
     padding: .5rem 0.2rem;
-    background: var(--dark-magenta);
+    background: var(--dark-color);
     text-align: center;
   }
   .navList:last-child{
@@ -85,6 +92,12 @@
   .imgHead {
     margin-bottom: 4rem;
   }
+
+  /* pricing */
+  .containerCard,  .card-container{
+    padding: 1rem 0;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -104,3 +117,8 @@
     padding-top: 2.2rem;
   }
 }
+
+
+
+
+
