@@ -1,7 +1,6 @@
 @media screen and (max-width: 901px) {
   body {
     overflow-y: scroll;
-    background: var(--light-color);
   }
 
   .refcode-show{
@@ -94,9 +93,7 @@
   }
 
   /* pricing */
-  .containerCard,  .card-container{
-    padding: 1rem 0;
-  }
+
 
 }
 

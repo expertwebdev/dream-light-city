@@ -1,0 +1,130 @@
+[
+  {
+    "price": "₹300",
+    "planNames": "Australia ANZ Stadium",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650531051/DreamLightCity/PlanImages/photo-1549923015-badf41b04831_bzzobd.jpg",
+    "dailyIncome": "30",
+    "totalIncome": "₹600",
+    "servingDays": "20"
+  },
+  {
+    "price": "₹500",
+    "planNames": "London Wembley Stadium",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650530695/DreamLightCity/PlanImages/photo-1489944440615-453fc2b6a9a9_semdle.jpg",
+    "dailyIncome": "50",
+    "totalIncome": "₹1,000",
+    "servingDays": "20"
+  },
+  {
+    "price": "₹1,000",
+    "planNames": "FNB Johannesburg Stadium",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650530617/DreamLightCity/PlanImages/photo-1512631737701-737916001362_q5bcct.jpg",
+    "dailyIncome": "100",
+    "totalIncome": "₹2,000",
+    "servingDays": "20"
+  },
+  {
+    "price": "₹1,500",
+    "planNames": "Narendra Modi Stadium",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650567423/DreamLightCity/PlanImages/Moteras-Sardar-Patel-Stadium_jqvyof.jpg",
+    "dailyIncome": "150",
+    "totalIncome": "₹3,000",
+    "servingDays": "20"
+  },
+  {
+    "price": "₹2,000",
+    "planNames": "Salt Lake City Stadium",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650567524/DreamLightCity/PlanImages/5d89f45c7e8a220e5a299894_1569322076480_tzhhkd.jpg",
+    "dailyIncome": "267",
+    "totalIncome": "₹4,000",
+    "servingDays": "15"
+  },
+  {
+    "price": "₹3,000",
+    "planNames": "Beaver US Stadium",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650530948/DreamLightCity/PlanImages/photo-1511204579483-e5c2b1d69acd_mvllqh.jpg",
+    "dailyIncome": "400",
+    "totalIncome": "₹6,000",
+    "servingDays": "15"
+  },
+  {
+    "price": "₹5,000",
+    "planNames": "Bank of America Stadium",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650530591/DreamLightCity/PlanImages/photo-1629298011324-1908916d01a7_r3m1d2.jpg",
+    "dailyIncome": "667",
+    "totalIncome": "₹10,000",
+    "servingDays": "15"
+  },
+  {
+    "price": "₹6,000",
+    "planNames": "Marriott Center Arena",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650567824/DreamLightCity/PlanImages/1024px-Marriott_Center_1-1000x600_mjrw6m.jpg",
+    "dailyIncome": "800",
+    "totalIncome": "₹12,000",
+    "servingDays": "15"
+  },
+  {
+    "price": "₹7,000",
+    "planNames": "Texas Football Stadium",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650567875/DreamLightCity/PlanImages/106698727-1599822851881-SoFi_Stadium_est_2020_ynf0a1.jpg",
+    "dailyIncome": "1000",
+    "totalIncome": "₹10,000",
+    "servingDays": "10"
+  },
+  {
+    "price": "₹8,000",
+    "planNames": "Rungrado May Day Stadium",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650573038/DreamLightCity/PlanImages/foreign_english_2020-08-10_dn122769_image1_h4cace.jpg",
+    "dailyIncome": "1200",
+    "totalIncome": "₹12,000",
+    "servingDays": "10"
+  },
+  {
+    "price": "₹10,000",
+    "planNames": "Arlington ESport Arena",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650532147/DreamLightCity/PlanImages/J1A6493_2_LIGHTS-1504x846_m2vhj2.jpg",
+    "dailyIncome": "1500",
+    "totalIncome": "₹15,000",
+    "servingDays": "10"
+  },
+  {
+    "price": "₹15,000",
+    "planNames": "Copenhagen Royal Arena",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650531431/DreamLightCity/PlanImages/royal_arena_copenhagen_xn62pt.jpg",
+    "dailyIncome": "2200",
+    "totalIncome": "₹22,000",
+    "servingDays": "10"
+  },
+  {
+    "price": "₹30,000",
+    "planNames": "Fortress Melbourne Arena",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650532117/DreamLightCity/PlanImages/Alienware-Arena-2-1504x846_wdy115.jpg",
+    "dailyIncome": "5000",
+    "totalIncome": "₹40,000",
+    "servingDays": "8"
+  },
+  {
+    "price": "₹40,000",
+    "planNames": "Moscow CSKA Arena",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650531405/DreamLightCity/PlanImages/cska_arena_gpyyca.jpg",
+    "dailyIncome": "6875",
+    "totalIncome": "₹55,000",
+    "servingDays": "8"
+  },
+  {
+    "price": "₹50,000",
+    "planNames": "NY Arthur Ashe Stadium",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650531086/DreamLightCity/PlanImages/photo-1568663469495-b09d5e3c2e07_aepsye.jpg",
+    "dailyIncome": "8750",
+    "totalIncome": "₹70,000",
+    "servingDays": "8"
+  },
+  {
+    "price": "₹80,000",
+    "planNames": "Russia ZSKA Arena",
+    "imageLink": "https://res.cloudinary.com/promisedpayment/image/upload/v1650531196/DreamLightCity/PlanImages/photo-1585805152588-5beb7808255d_vy0gf4.jpg",
+    "dailyIncome": "13750",
+    "totalIncome": "₹110,000",
+    "servingDays": "8"
+  }
+]
