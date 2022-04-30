@@ -1,6 +1,6 @@
 @media screen and (max-width: 901px) {
   body {
-    overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .refcode-show{

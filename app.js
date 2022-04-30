@@ -21,9 +21,9 @@ async function jsonTable(url) {
                 <img class="cardImage" src="${data[i].imageLink}">
                 <div class="card-body">
                     <p>price: ${data[i].price}</p>
-                    <p>daily income: ${data[i].dailyIncome}</p>
+                    <p>daily income: ₹${data[i].dailyIncome}</p>
                     <p>full income: ${data[i].totalIncome}</p>
-                    <p>serving time: ${data[i].servingDays}8</p>
+                    <p>serving Days: ${data[i].servingDays}D</p>
                 </div>
                 <div class="card-btn">
                     <a href="https://play.google.com/store/apps/details?id=com.alphacorp.alphaplan2"
