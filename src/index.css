@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: var(--main-font);
+  scroll-behavior: smooth;
+
 }
 
 body {
@@ -12,9 +14,7 @@ body {
   --amber-color: #ffbf66;
 
   --main-font: 'Poppins', sans-serif;
-  padding-bottom: 2rem;
   background: var(--light-color);
-  scroll-behavior: smooth;
   margin-top: 4rem;
   overflow-x: hidden;
 }
@@ -73,7 +73,7 @@ nav ul {
 .container {
   display: flex;
   align-items: center;
-  padding: 0 4rem;
+  padding: 4rem;
   height: max-content;
   width: 100%;
 }
@@ -196,6 +196,7 @@ nav ul {
   position: relative;
   display: flex;
   justify-content: center;
+  padding-top: 4rem;
 }
 
 .card-container {
@@ -274,4 +275,39 @@ nav ul {
   width: 100%;
   height: 8rem;
   margin-bottom: 1rem;
+}
+#aboutSection{
+  padding: 3rem;
+}
+#aboutSection h1{
+  text-align: center;
+  border-bottom: 1px solid var(--amber-color) ;
+}
+
+#aboutSection h2 {
+  color: #00353f;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+#aboutSection p{
+  text-align: center;
+}
+
+.footer-copyright{
+  background-color: var(--dark-color);
+  padding: 1rem 3rem;
+  color: #08c5d1;
+}
+
+.icons-partnership {
+  display: flex;
+  justify-content: center;
+}
+
+footer h2, footer p{
+  text-align: center;
+}
+footer h2{
+  color: var(--dark-color);
 }
