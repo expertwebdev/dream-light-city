@@ -44,6 +44,10 @@ header {
   color: var(--main-color);
 }
 
+.dropMenu{
+  display: none;
+}
+
 nav ul {
   display: inline-flex;
   width: max-content;

@@ -38,20 +38,20 @@ async function jsonTable(url) {
 jsonTable("./app.json")
 
 
-let active = false;
-menuBar.addEventListener('click', () => {
-    if (active == false) {
-        menuBar.classList.add('open');
-        navBar.style.display = "block"
-        active = true;
+// let active = false;
+// menuBar.addEventListener('click', () => {
+//     if (active == false) {
+//         menuBar.classList.add('open');
+//         navBar.style.display = "block"
+//         active = true;
 
-    } else {
-        menuBar.classList.remove('open');
-        navBar.style.display = "none"
-        active = false;
-    }
+//     } else {
+//         menuBar.classList.remove('open');
+//         navBar.style.display = "none"
+//         active = false;
+//     }
 
-})
+// })
 
 function getParameter(parameterName) {
     let parameters = new URLSearchParams(window.location.search);

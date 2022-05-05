@@ -3,76 +3,82 @@
     overflow-x: hidden;
   }
 
-  .refcode-show{
+  .refcode-show {
     text-align: center;
   }
-  #refcode{
+  #refcode {
     animation: none;
   }
 
   header {
     z-index: 40;
+    display: block;
   }
 
+  .branding {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .logoText {
+    display: block;
+    margin-top: 1rem;
     font-size: 1.5rem;
   }
+
   nav {
-    display: none;
+    position: relative;
+    left: -2.2rem;
+    top: -2.5rem;
+    display: inline-block;
+    padding-bottom: 1.6rem;
+    transition: 0.5s ease;
+    padding: .5rem 1rem;
   }
 
-  .menuBar {
-    position: absolute;
-    width: 38px;
-    height: 20px;
-    right: 2rem;
+  .dropMenu {
+    display: block;
+    width: 1.2rem;
+    position: relative;
     cursor: pointer;
+    transform: rotate(-90deg);
+    transition: 0.5s ease;
   }
 
-  .menuBtn {
-    width: 38px;
-    height: 3.3px;
-    background: #fff;
-    position: absolute;
-    top: 15%;
-    border-radius: 5px;
+  nav:hover .dropMenu{
+    transform: rotate(0);
   }
-  .menuBtn::after {
-    position: absolute;
-    content: "";
-    width: 38px;
-    height: 3.3px;
-    border-radius: 5px;
-    background: #fff;
-    transform: translateY(10px);
+
+  .nav:hover {
+    padding-right: 0;
   }
 
   nav ul {
-    flex-direction: column;
-    position: fixed;
-    right: .8rem;
-    top: 3.5rem;
-    color: var(--light-color);
+    position: relative;
+    top: 1.2rem;
+    left: -1.2rem;
     z-index: 20;
-    text-align: right;
+    background: var(--dark-color);
+    display: none;
   }
 
   .navList {
-    width: 5rem;
-    padding: .5rem 0.2rem;
-    background: var(--dark-color);
-    text-align: center;
-  }
-  .navList:last-child{
-      padding-bottom: 1.5rem;
-      border-radius: 0 0 15px 15px;
+    text-align: left;
   }
 
+  .navLink:hover{
+    color: var(--dark-color);
+    background-color: #ddd;
+  }
+
+
   .navLink {
-    text-align: center;
-    color: var(--lite-magenta);
-    font-size: 1rem;
-    padding: .4rem;
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    color: var(--light-color);
+    font-size: 0.8rem;
   }
 
   #homeContainer {
@@ -92,9 +98,11 @@
     margin-bottom: 4rem;
   }
 
+  nav:hover .navUl {
+    display: block;
+  }
+
   /* pricing */
-
-
 }
 
 @media screen and (max-width: 480px) {
@@ -113,9 +121,14 @@
   .imgContent {
     padding-top: 2.2rem;
   }
+  .logoText{
+    font-size: 1.2rem;
+  }
+  .navUl{
+    margin-top: .5rem;
+  }
+  .dropMenu {
+    margin-top: .5rem;
+    width: 1rem;
+  }
 }
-
-
-
-
-
