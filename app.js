@@ -1,11 +1,9 @@
-const homeBtn = document.getElementById("home");
-const homeContainer = document.getElementById("homeContainer");
-const pricingContainer = document.getElementById("pricing");
-const menuBar = document.getElementById("menuBar");
 const refcodeAlert = document.querySelector("#refcode");
 const navBar = document.querySelector("nav");
 const refShow = document.querySelector(".refcode-show");
 const cardContainer = document.querySelector(".card-container");
+const dropMenu = document.getElementsByClassName("dropMenu");
+const dropItem = document.getElementById("dropItem");
 
 
 async function jsonTable(url) {
@@ -33,25 +31,10 @@ async function jsonTable(url) {
         cardContainer.appendChild(cardBody);
 
     }
-}
+};
 
-jsonTable("./app.json")
+jsonTable("./app.json");
 
-
-// let active = false;
-// menuBar.addEventListener('click', () => {
-//     if (active == false) {
-//         menuBar.classList.add('open');
-//         navBar.style.display = "block"
-//         active = true;
-
-//     } else {
-//         menuBar.classList.remove('open');
-//         navBar.style.display = "none"
-//         active = false;
-//     }
-
-// })
 
 function getParameter(parameterName) {
     let parameters = new URLSearchParams(window.location.search);
@@ -63,6 +46,18 @@ let showRefcode = getParameter("refcode");
 if (getParameter("refcode")) {
     refShow.style.display = "block";
     refcodeAlert.innerHTML = `Your referral code : ${showRefcode}`;
+}
+
+let isNav = true;
+function dropDown(){
+    if(isNav){
+        dropItem.classList.add("showNav");
+        isNav = false;
+    }
+    else {
+        dropItem.classList.remove("showNav");
+        isNav = true;
+    }
 }
 
 

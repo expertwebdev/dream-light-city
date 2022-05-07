@@ -11,11 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
         rel="stylesheet">
+    <!--External CSS -->
     <link rel="stylesheet" href="./src/index.css">
-    <link rel="stylesheet" href="./src/all.css">
     <link rel="stylesheet" href="./src/mobile.css">
-    <!-- <script src="https://kit.fontawesome.com/1ad6d9ff26.js" crossorigin="anonymous"></script> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 <body>
     <header>
         <div class="refcode-show">
@@ -25,8 +24,8 @@
             <span class="logoText">Dream <span style="color: #fff;">Light City</span></span>
         </div>
         <nav class="navBar">
-            <img src="./img/dropDown.svg" alt="Drop-Menu" class="dropMenu">
-            <ul class="navUl">
+            <img src="./img/dropDown.svg" alt="Drop-Menu" class="dropMenu" onclick="dropDown()">
+            <ul class="navUl" id="dropItem">
                 <li class="navList"><a href="#" class="navLink" id="home">Home</a></li>
                 <li class="navList"><a href="#pricing" class="navLink" id="pricingNav">Pricing</a></li>
                 <li class="navList"><a href="#aboutSection" class="navLink" id="aboutNav">About</a></li>
@@ -60,44 +59,30 @@
         </div>
     </section>
     <section id="aboutSection">
-            <h1 class="container-tittle">About Us</h1>
-            <h2 class="container-h2 about-h2">What are we Dream Light City</h2>
-            <p class="p-text container-p">established in july 2016, Alpha microelectrronics corporation is an IC design
-                house specializing in the design, research, developement, application and marketing of integrated circuits.
-                Alpha's common stocks are listed on the Gre-Tai Secuirities Market (OTC) since september 2018.</p>
+        <h1 class="container-tittle">About Us</h1>
+        <h2 class="container-h2 about-h2">What are we Dream Light City</h2>
+        <p class="p-text container-p">established in july 2016, Alpha microelectrronics corporation is an IC design
+            house specializing in the design, research, developement, application and marketing of integrated circuits.
+            Alpha's common stocks are listed on the Gre-Tai Secuirities Market (OTC) since september 2018.</p>
     </section>
-
     <footer>
-        <!-- <h2 class="container-h2 footer-tittle">New partnership with</h2> -->
-        <div class="icons-partnership">
-            <!-- <i class="fa-icon fa-amazon"></i>
-            <i class="fa-icon fas fa-plane-departure fa-2x"></i>
-            <i class="fa-icon fab fa-avianex fa-2x"></i>
-            <i class="fa-icon fab fa-fedex fa-2x"></i>
-            <i class="fa-icon fab fa-telegram fa-2x"></i>
-            <i class="fa-icon fab fa-unity fa-2x"></i>
-            <i class="fa-icon fab fa-paypal fa-2x"></i>
-            <i class="fa-icon fab fa-cc-jcb fa-2x"></i>
-            <i class="fa-icon fab fa-hooli fa-2x"></i>
-            <i class="fa-icon fab fa-firefox fa-2x"></i>
-            <i class="fa-icon fas fa-code fa-2x"></i>
-            <i class="fa-icon fab fa-earlybirds fa-2x"></i> -->
+        <h2 class="container-h2 footer-tittle">New partnership with</h2>
+        <div class="icons-list">
+            <img src="./src/icons/amazon-brands.svg" alt="icons">
+            <img src="./src/icons/plane-departure-solid.svg" alt="icons">
+            <img src="./src/icons/avianex-brands.svg" alt="icons">
+            <img src="./src/icons/cc-jcb-brands.svg" alt="icons">
+            <img src="./src/icons/code-solid.svg" alt="icons">
+            <img src="./src/icons/earlybirds-brands.svg" alt="icons">
+            <img src="./src/icons/fedex-brands.svg" alt="icons">
+            <img src="./src/icons/firefox-browser-brands.svg" alt="icons">
+            <img src="./src/icons/hooli-brands.svg" alt="icons">
+            <img src="./src/icons/paypal-brands.svg" alt="icons">
+            <img src="./src/icons/unity-brands.svg" alt="icons">
         </div>
-
         <p class="p-text footer-copyright">copyright © 2016-2022 <br>
             DLC corporation all right reserved</p>
     </footer>
-
-    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="svg_wave" viewBox="0 0 1440 320">
-        <path fill="#00353f" fill-opacity="0.8"
-            d="M0,64L120,101.3C240,139,480,213,720,208C960,203,1200,117,1320,74.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-        </path>
-    </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" class="svg_wave svg_wave2" viewBox="0 0 1440 320">
-        <path fill="#3b003b" fill-opacity="0.8"
-            d="M0,64L120,101.3C240,139,480,213,720,208C960,203,1200,117,1320,74.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-        </path>
-    </svg> -->
 
     <script src="./app.js"></script>
 </body>
