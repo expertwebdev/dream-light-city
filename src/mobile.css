@@ -46,6 +46,10 @@
     transition: 0.5s ease;
   }
 
+  .rotate90Deg {
+    transform: rotate(0);
+  }
+
   /* nav:hover .dropMenu{
     transform: rotate(0);
   } */

@@ -2,7 +2,7 @@ const refcodeAlert = document.querySelector("#refcode");
 const navBar = document.querySelector("nav");
 const refShow = document.querySelector(".refcode-show");
 const cardContainer = document.querySelector(".card-container");
-const dropMenu = document.getElementsByClassName("dropMenu");
+const menuBar = document.getElementById("menuBar");
 const dropItem = document.getElementById("dropItem");
 
 
@@ -51,10 +51,12 @@ if (getParameter("refcode")) {
 let isNav = true;
 function dropDown(){
     if(isNav){
+        menuBar.classList.add("rotate90Deg");
         dropItem.classList.add("showNav");
         isNav = false;
     }
     else {
+        menuBar.classList.remove("rotate90Deg");
         dropItem.classList.remove("showNav");
         isNav = true;
     }
