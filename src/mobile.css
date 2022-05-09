@@ -34,7 +34,7 @@
     display: inline-block;
     padding-bottom: 1.6rem;
     transition: 0.5s ease;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
   }
 
   .dropMenu {
@@ -67,7 +67,7 @@
     display: none;
   }
 
-  .showNav{
+  .showNav {
     display: block;
   }
 
@@ -75,11 +75,10 @@
     text-align: left;
   }
 
-  .navLink:hover{
+  .navLink:hover {
     color: var(--dark-color);
     background-color: #ddd;
   }
-
 
   .navLink {
     display: inline-block;
@@ -109,7 +108,6 @@
   /* nav:hover .navUl {
     display: block;
   } */
-
 }
 
 @media screen and (max-width: 480px) {
@@ -128,14 +126,14 @@
   .imgContent {
     padding-top: 2.2rem;
   }
-  .logoText{
+  .logoText {
     font-size: 1.2rem;
   }
-  .navUl{
-    margin-top: .5rem;
+  .navUl {
+    margin-top: 0.5rem;
   }
   .dropMenu {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     width: 1rem;
   }
 }
