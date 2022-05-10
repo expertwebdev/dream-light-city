@@ -185,7 +185,7 @@ nav ul {
 }
 
 /* slider */
-#slider{
+/* #slider{
   width: inherit;
   display: flex;
   justify-content: center;
@@ -193,7 +193,7 @@ nav ul {
 #slider>a>img {
   height: 14rem;
   margin: 5px;
-}
+} */
 
 .sectionTittle {
   text-align: center;

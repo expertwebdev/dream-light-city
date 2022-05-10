@@ -107,15 +107,13 @@
   /* nav:hover .navUl {
     display: block;
   } */
-  #slider {
-    justify-content: flex-start;
-    overflow-x: scroll;
-  }
-  #slider>a>img {
+
+
+  /* #slider>a>img {
     height: 10rem;
     margin: 5px;
     width: 15rem;
-  }
+  } */
 }
 
 
@@ -147,6 +145,47 @@
   .dropMenu {
     margin-top: 0.5rem;
     width: 1rem;
+  }
+
+  #slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+  }
+  #slide-container {
+    background: #ddd;
+    width: 22rem;
+    height: 10rem;
+    display: flex;
+    overflow: hidden;
+  }
+  #slide-container a{
+    animation: slideImg 9s infinite ease;
+  }
+  
+  #slide-container a>img{
+    height: 12rem;
+    width: 22rem;
+  }
+
+  @keyframes slideImg {
+    0% {
+      transform: translateX(0rem);
+    }
+    25% {
+      transform: translateX(-22rem);
+    }
+    50% {
+      transform: translateX(-44rem);
+    }
+    75% {
+      transform: translateX(-22rem);
+    }
+    100%{
+      transform: translateX(0rem);
+    }
   }
 }
 
