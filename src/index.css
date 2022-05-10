@@ -34,8 +34,15 @@ header {
 
 .branding {
   width: 100%;
+  height: inherit;
   display: flex;
   justify-content: start;
+  align-items: center;
+}
+
+.branding img{
+  width: 30px;
+  margin-right: 8px;
 }
 
 .logoText {
@@ -148,19 +155,6 @@ nav ul {
   box-shadow: 0.3rem 0.3rem var(--main-color);
 }
 
-.svg_wave {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.svg_wave2 {
-  bottom: 0.5rem;
-  opacity: 30%;
-  z-index: 0;
-}
-
 /* Refer Code */
 .refcode-show {
   position: absolute;
@@ -190,13 +184,29 @@ nav ul {
   }
 }
 
+/* slider */
+#slider{
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+#slider>a>img {
+  height: 14rem;
+  margin: 5px;
+}
+
+.sectionTittle {
+  text-align: center;
+  margin: 1rem 0;
+}
+
 /* Pricing */
 #pricing {
   width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
-  padding-top: 4rem;
+  margin-top: .5rem;
 }
 
 .card-container {

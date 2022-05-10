@@ -23,14 +23,13 @@
   }
   .logoText {
     display: block;
-    margin-top: 1rem;
     font-size: 1.5rem;
   }
 
   nav {
     position: relative;
     left: -2.2rem;
-    top: -2.5rem;
+    top: -3.4rem;
     display: inline-block;
     padding-bottom: 1.6rem;
     transition: 0.5s ease;
@@ -108,7 +107,20 @@
   /* nav:hover .navUl {
     display: block;
   } */
+  #slider {
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+  #slider>a>img {
+    height: 10rem;
+    margin: 5px;
+    width: 15rem;
+  }
 }
+
+
+
+
 
 @media screen and (max-width: 480px) {
   .textContent {
@@ -137,3 +149,4 @@
     width: 1rem;
   }
 }
+
