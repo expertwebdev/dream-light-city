@@ -24,7 +24,7 @@ async function jsonTable(url) {
                     <p>serving Days: ${data[i].servingDays}D</p>
                 </div>
                 <div class="card-btn">
-                    <a href="https://play.google.com/store/apps/details?id=com.alphacorp.alphaplan2"
+                    <a href="https://play.google.com/store/apps/details?id=com.ecopower.dreamlightcity"
                         class="btn pricing-btn">${data[i].price}</a>
                 </div>`
 
@@ -33,7 +33,7 @@ async function jsonTable(url) {
     }
 };
 
-jsonTable("./app.json");
+jsonTable("./src/json/card.json");
 
 
 function getParameter(parameterName) {
