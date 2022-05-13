@@ -104,7 +104,6 @@ nav ul {
 .imgHead {
   margin-bottom: 2rem;
   width: 70%;
-  filter: hue-rotate(15deg);
   z-index: 10;
 }
 
