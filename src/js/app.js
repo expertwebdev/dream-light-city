@@ -4,7 +4,11 @@ const refShow = document.querySelector(".refcode-show");
 const cardContainer = document.querySelector(".card-container");
 const menuBar = document.getElementById("menuBar");
 const dropItem = document.getElementById("dropItem");
+const downloadBtn = document.getElementById("download_btn");
 
+downloadBtn.addEventListener("click", ()=>{
+    location.href="https://play.google.com/store/apps/details?id=com.ecopower.dreamlightcity";
+})
 
 async function jsonTable(url) {
     const response = await fetch(url);
